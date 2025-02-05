@@ -18,7 +18,7 @@ const Navbar: React.FC<NavbarProps> = ({ items }) => {
 		{ label: "Home", href: "/" },
 		{ label: "About", href: "/about" },
 		{ label: "Projects", href: "/projects" },
-		{ label: "Contact", href: "/contacts" },
+		{ label: "Contacts", href: "/contacts" },
 	];
 
 	return (
