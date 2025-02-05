@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 :root {
   --background: linear-gradient(165deg, #0a0a0a, #032648);
   --foreground: #ededed;

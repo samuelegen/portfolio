@@ -10,6 +10,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between; 
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -26,8 +27,6 @@
 	display: flex;
 	align-items: center;
 	gap: 1.5rem;
-	margin: 0;
-	padding: 0;
 	justify-content: center; 
 }
 
@@ -41,4 +40,12 @@
 .navLink:hover,
 .navLink:focus {
 	color: #1e90ff;
+}
+
+@media (max-width: 480px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+    }
 }
