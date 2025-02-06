@@ -36,7 +36,9 @@ export default function RootLayout({
         className={`${geistSans.variable} ${lato_font.variable} ${prata_font.variable} antialiased`}
       >
         <Navbar/>
-        {children}
+        <div className="container">
+          {children}
+        </div>
       </body>
     </html>
   );

@@ -11,12 +11,10 @@ const params =
 
 export default function Home() {
 	return (
-		<div className={styles.container}>
 			<main className={styles.main}>
         <Image src={params.immagine} width={200} height={200} alt="immagine_home" className={styles.image_options}/>
 				<h1>{params.title}</h1>
 				<p>{params.description}</p>
 			</main>
-		</div>
 	);
 }

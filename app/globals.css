@@ -9,6 +9,17 @@
   overflow-x: hidden;
 }
 
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	min-height: 100vh;
+	padding: 3rem; 
+	padding-bottom: 5rem; 
+	gap: 4rem;
+  max-width: none;
+}
+
 :root {
   --background: linear-gradient(165deg, #0a0a0a, #032648);
   --foreground: #ededed;
