@@ -6,7 +6,7 @@ import Image from "next/image";
 const params = {
 	title: "I miei contatti",
 	description:
-		"Se hai domande, richieste o vuoi semplicemente entrare in contatto, non esitare a scrivermi! Sarà un piacere risponderti.",
+		"Se hai domande, richieste o vuoi semplicemente entrare in contatto, non esitare a scrivermi! Sarà un piacere risponderti. 😊😁",
 	email_icon: "/email_icon.webp",
 	email: "samuelegennaro@gmail.com",
 	linkedin_icon: "/LinkedIn_icon.svg.webp",
