@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Prata, Lato } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Molecoles/Navbar";
+import Navbar from "../components/Molecoles/Navbar/Navbar"
 
 const prata_font = Prata({
   subsets: ["latin"],

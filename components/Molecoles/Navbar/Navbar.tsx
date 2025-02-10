@@ -2,7 +2,7 @@
 "use client"
 import Link from "next/link";
 import React from "react";
-import styles from "/components/Molecoles/Navbar.module.scss"
+import styles from "./Navbar.module.scss"
 
 interface NavItem {
 	label: string;
@@ -16,9 +16,9 @@ interface NavbarProps {
 const Navbar: React.FC<NavbarProps> = ({ items }) => {
 	const navItems: NavItem[] = items || [
 		{ label: "Home", href: "/" },
-		{ label: "About", href: "/about" },
-		{ label: "Projects", href: "/projects" },
-		{ label: "Contacts", href: "/contacts" },
+		{ label: "Chi sono", href: "/chi_sono" },
+		{ label: "Progetti", href: "/progetti" },
+		{ label: "Contatti", href: "/contatti" },
 	];
 
 	return (
