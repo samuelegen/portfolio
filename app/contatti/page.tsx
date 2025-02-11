@@ -15,7 +15,7 @@ interface Contact {
 const params: Contact[] = [
 	{
 		type: "email",
-		icon: "/email_icon.webp",
+		icon: "/email_icon.png",
 		text: "samuelegennaro@gmail.com",
 	},
 	{

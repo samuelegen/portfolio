@@ -14,9 +14,8 @@
 }
 
 .logo {
-    font-family: var(--font-prata) ;
-	font-size: 1.5rem;
-	font-weight: bold;
+    font-family: var(--font-great_vibes) ;
+	font-size: 2.6rem;
 	color: #fff;
 	text-decoration: none;
 	
@@ -39,7 +38,12 @@
 
 .navLink:hover,
 .navLink:focus {
-	color: #1e90ff;
+	color: #1164b7;
+}
+
+.active {
+	color: #1164b7;
+	font-weight: bold;
 }
 
 @media (max-width: 480px) {
